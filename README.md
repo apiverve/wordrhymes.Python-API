@@ -1,4 +1,4 @@
-Word Rhymes API
+Rhyming Words API
 ============
 
 Word Rhymes is a simple tool for getting word rhymes. It returns a list of rhyming words.
@@ -7,12 +7,12 @@ Word Rhymes is a simple tool for getting word rhymes. It returns a list of rhymi
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
 ![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Python API Wrapper for the [Word Rhymes API](https://apiverve.com/marketplace/api/wordrhymes)
+This is a Python API Wrapper for the [Rhyming Words API](https://apiverve.com/marketplace/api/wordrhymes)
 
 ---
 
 ## Installation
-	pip install apiverve-wordrhymes
+	pip install apiverve-rhymingwords
 
 ---
 
@@ -25,14 +25,14 @@ You can get it by signing up at [https://apiverve.com](https://apiverve.com)
 
 ## Usage
 
-The Word Rhymes API documentation is found here: [https://docs.apiverve.com/api/wordrhymes](https://docs.apiverve.com/api/wordrhymes).  
+The Rhyming Words API documentation is found here: [https://docs.apiverve.com/api/wordrhymes](https://docs.apiverve.com/api/wordrhymes).  
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
 
 ```
 # Import the client module
-from apiverve_wordrhymes.apiClient import WordrhymesAPIClient
+from apiverve_rhymingwords.apiClient import WordrhymesAPIClient
 
 # Initialize the client with your APIVerve API key
 api = WordrhymesAPIClient("[YOUR_API_KEY]")
