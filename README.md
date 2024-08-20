@@ -171,7 +171,8 @@ print(result)
         "word": "loux"
       }
     ]
-  }
+  },
+  "code": 200
 }
 ```
 
